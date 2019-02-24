@@ -3,9 +3,21 @@
     flex-flow: column wrap;
 }
 
+.strikethrough {
+    text-decoration: line-through;
+}
+
 .description {
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column;
+}
+
+.description__name {
+    align-self: center;
+}
+
+.description__image {
+    align-self: center;
 }
 
 .intro {
