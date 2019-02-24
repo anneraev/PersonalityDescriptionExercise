@@ -1,0 +1,44 @@
+.article {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.description {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.intro {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.strengthsWeaknesses {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.friendships {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.career {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.workplace {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.celebrity {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.celebrity__card {
+    display: flex;
+    flex-flow: column wrap;
+}
