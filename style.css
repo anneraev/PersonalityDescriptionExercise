@@ -1,7 +1,9 @@
 .article {
     display: flex;
     flex-flow: column wrap;
+    background: #dbffe4;
 }
+
 
 .strikethrough {
     text-decoration: line-through;
@@ -13,11 +15,22 @@
 }
 
 .description__name {
+    font-size: 3em;
+    background-color: yellowgreen;
     align-self: center;
+    color: darkolivegreen;
+    padding: 10px 50px 10px 50px
 }
 
 .description__image {
     align-self: center;
+}
+
+.description__paragraph {
+    font-size: 2em;
+    background-color: #2d7740;
+    text-indent: 2em;
+    padding: 50px;
 }
 
 .intro {
@@ -53,4 +66,12 @@
 .celebrity__card {
     display: flex;
     flex-flow: column wrap;
+}
+
+.card__title {
+    background-color: yellowgreen;
+}
+
+.celebrity__category {
+    background-color: lightgreen;
 }
